@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+.idea/
+.vscode/
+.DS_Store
+
+# Heavy / local-only
+dataset/
+outputs/
+wandb/
+more_checkpoints/
+more_train_results/
+results/
+visualizations__/
+_legacy/
+*.pth
+*.pt
+*.ckpt
+*.bag
+
+# Legacy / scratch scripts kept locally
+extra/
+data_loader.py
+display.py
+filters_.py
+filter_values.py
+read_multiple_bagfile.py
+train_distributed.py
+test.py
+visualize.py
+0.png
+1.png
+2.png
+3.png
+
+# Logs
+*.log
+events.out.tfevents.*
