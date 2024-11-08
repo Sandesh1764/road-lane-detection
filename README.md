@@ -88,17 +88,6 @@ Compare with a plain U-Net: skips help edges, but ASPP is especially strong when
   <img src="assets/dataset_preview.jpg" width="100%" alt="Dataset preview with lane overlays"/>
 </p>
 
-### DeepLabV3-ResNet18 predictions
-
-<p align="center">
-  <img src="assets/predictions_montage.jpg" width="100%" alt="Prediction montage"/>
-</p>
-<p align="center"><em>Held-out ego frames — model trained to paint lane markings onto the drive corridor.</em></p>
-
-<p align="center">
-  <img src="assets/prediction_hero.jpg" width="52%" alt="Hero prediction frame"/>
-</p>
-
 ### Lane-focus heat
 
 <p align="center">
